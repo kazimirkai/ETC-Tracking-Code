@@ -7,7 +7,7 @@ based on the method found in Crawford et al. 2021. The tracking (particularly mu
 
 The jupyter notebook documents the developmental process of the tracking algorithm as well as combined total, lysis, genesis density for both climate scenarios available in EDDEv2 (SSP2-4.5, SSP3-7) and for stronger (sub 980 hPa) storms. 
 
-The input parameters for the algorithm limits tracks to a minimum of 4 points, confines the initial detection maximum to 1010 mb and the tracking (post-genesis) maximum to 1013 mb, the maximum turn angle between points to 60 degrees, minimum and maximum point-to-point distance thresholds to 12km and 700km respectively, neighborhood distance (search radius) to 200km, and pressure-minimum difference from the mean in the search radius to 1.5mb. These were defined by intuition, conputational optimization, and prior literature. 
+The input parameters for the algorithm limits tracks to a minimum of 4 points, confines the initial detection maximum to 1010 mb and the tracking (post-genesis) maximum to 1013 mb, the maximum turn angle between points to 60 degrees, minimum and maximum point-to-point distance thresholds to 12km and 700km respectively, neighborhood distance (search radius) to 200km, and pressure-minimum difference from the mean in the search radius to 1.5mb. These were defined by intuition, computational optimization, and prior literature. 
 
 Unfortunately, due to time limits of the internship, these parameters have not been tuned with reanalysis data. Furthermore, there is some spurious clustering of track points over some apparently uncorrelated locations which should be resolved before any professional use of this program.  
 
